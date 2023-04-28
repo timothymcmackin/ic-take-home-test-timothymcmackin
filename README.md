@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=11021157&assignment_repo_type=AssignmentRepo)
 If you are applying to be a Technical Writer at [Datadog](https://www.datadoghq.com/), you are in the right spot!
 
 This take home test is meant to test the technical aptitude we expect from our writers. While it does not necessarily represent the day-to-day work, it does a really great job of letting us all know if you will be happy and thrive doing the work that we do day-to-day. 
