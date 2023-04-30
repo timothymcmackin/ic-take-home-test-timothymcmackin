@@ -1,13 +1,13 @@
 ## Exercise 1: Collecting Metrics
 
-1. I started an Ubuntu container and installed the DataDog agent on it.
-This screenshot shows the host on the Host Map page in DataDog with the custom tag `test:mykey`:
+1. I started an Ubuntu container and installed the Datadog agent on it.
+This screenshot shows the host on the Host Map page in Datadog with the custom tag `test:mykey`:
 
    ![Infrastructure map screen with the Ubuntu agent and custom tag](./images/1.1-inframap-with-agent-and-tags.png)
 
-2. I installed MySQL on the container and set up the DataDog database integration as described in the docs.
+2. I installed MySQL on the container and set up the Datadog database integration as described in the docs.
 
-   Here's my configuration file (`/etc/datadog-agent/conf.d/mysql.d/conf.yaml`) for the DataDog MySQL integration:
+   Here's my configuration file (`/etc/datadog-agent/conf.d/mysql.d/conf.yaml`) for the Datadog MySQL integration:
 
    ```yaml
    init_config: false
@@ -29,7 +29,7 @@ This screenshot shows the host on the Host Map page in DataDog with the custom t
 
    Here is the database integration dashboard while I ran a few database queries to show some activity:
 
-   ![DataDog database integration dashboard showing database activity](./images/1.2-database-integration-dashboard.png)
+   ![Datadog database integration dashboard showing database activity](./images/1.2-database-integration-dashboard.png)
 
 3. I set up a custom Agent check that submits a metric named "my_metric."
 Here are its files:
@@ -80,12 +80,12 @@ The change is apparent in the frequency of points in the line graph, as in this 
 
 1. I created a dashboard with the API that includes the two specified metrics with this TypeScript program: [./src/createDashboard.ts](./src/createDashboard.ts).
 
-2. I opened the new dashboard in DataDog and set the interval to 5 minutes.
+2. I opened the new dashboard in Datadog and set the interval to 5 minutes.
 Here's a public link to the dashboard: [TPM dashboard from API](https://p.datadoghq.com/sb/b29db77a-e607-11ed-afa9-da7ad0900002-299d46299d6e7903ef021516e24dd7da?from_ts=1682878324461&to_ts=1682881924461&live=true).
 
    Here's a screenshot of the dashboard:
 
-   ![API-created dashboard in DataDog with the interval at 5 minutes](./images/2.2-api-dashboard-with-anomaly-5-minutes.png)
+   ![API-created dashboard in Datadog with the interval at 5 minutes](./images/2.2-api-dashboard-with-anomaly-5-minutes.png)
 
 
 
