@@ -103,3 +103,6 @@ For more information about anomalies and algorithms, see the docs for the [`anom
 
 ## Exercise 3: Getting Started
 
+I wrote a getting started guide for [Barkdog](https://github.com/codenize-tools/barkdog) in this file:
+
+[barkdogGettingStarted.md](barkdogGettingStarted.md)
